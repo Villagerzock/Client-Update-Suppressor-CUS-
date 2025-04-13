@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.villagerzock.cus.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockMixin",
+    "NoteBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

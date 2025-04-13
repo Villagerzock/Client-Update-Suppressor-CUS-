@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "cus",
+  "version": "${version}",
+  "name": "ClientUpdateSuppressor [CUS]",
+  "description": "A Library Mod that adds Game Engine like Features for Modders",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/cus/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.villagerzock.cus.client.NoteBlockUpdateSuppressorClient"
+    ],
+    "main": [
+      "net.villagerzock.cus.NoteBlockUpdateSuppressor"
+    ],
+    "modmenu": [
+      "net.villagerzock.cus.modmenu.NoteBlockUpdateSuppressorModMenu"
+    ]
+  },
+  "mixins": [
+    "untitled.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

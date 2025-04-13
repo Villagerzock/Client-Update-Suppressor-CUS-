@@ -1,0 +1,9 @@
+{
+  "title.cus.config": "CUS Config",
+  "category.cus.blocks": "Blocks",
+  "category.cus.general": "General",
+  "entry.cus.blocks": "Blocks",
+  "entry.cus.blocks.desc": "Specify the Blocks that should be Suppressed",
+  "error.cus.parse_identifier": "§cThere was an Error parsing tge ID, %s is not a Valid ID",
+  "error.cus.block_non_existant": "$cThe Block %s does Not Exist"
+}
